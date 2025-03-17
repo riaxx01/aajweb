@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Trucking Service</title>
+    <link rel="stylesheet" href="aaj_design.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="aaj_web.html">
+        <img src="aaj.logo.png" alt="Freight Forwarding" class="header-logo">
+        <nav>
+            <ul>
+                <li><a href="aaj_web.html">Home</a></li>
+                <li><a href="book_trucking.html">Book Trucking Service</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="org_chart.html">Organizational Chart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="rates">
+        <h2>Delivery Rates</h2>
+        <h5>Click "Book Now" to book a trucking service for the selected destination.</h5>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Destination</th>
+                    <th>District</th>
+                    <th>Kilometers</th>
+                    <th>Rate</th>
+                    <th>Lead Time</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Abulug, Cagayan</td>
+                    <td rowspan="17">NEL District - Upper Cagayan</td>
+                    <td>687 KM</td>
+                    <td rowspan="10">₱13,000.00</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Abulug, Cagayan" data-rate="₱13,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Ballesteros, Cagayan</td>
+                    <td>615 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Ballesteros, Cagayan" data-rate="₱13,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Aparri, Cagayan</td>
+                    <td>607 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Aparri, Cagayan" data-rate="₱13,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Camalaniugan, Cagayan</td>
+                    <td>598 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Camalaniugan, Cagayan" data-rate="₱13,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Lal-lo, Cagayan</td>
+                    <td>604 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Lal-lo, Cagayan" data-rate="₱13,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Gattaran, Cagayan</td>
+                    <td>569 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Gattaran, Cagayan" data-rate="₱13,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Baggao, Cagayan</td>
+                    <td>546 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Baggao, Cagayan" data-rate="₱13,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Amulung, Cagayan</td>
+                    <td>533 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Amulung, Cagayan" data-rate="₱13,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Tuguegarao City, Cagayan</td>
+                    <td>504 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Tuguegarao City, Cagayan" data-rate="₱13,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Solana, Cagayan</td>
+                    <td>506 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Solana, Cagayan" data-rate="₱13,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Tabuk, Kalinga</td>
+                    <td>484 KM</td>
+                    <td rowspan="23">₱11,000.00</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Tabuk, Kalinga" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Paracelis, Mountain Province</td>
+                    <td>460 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Paracelis, Mountain Province" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Cabagan, Isabela</td>
+                    <td>487 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Cabagan, Isabela" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Delfin Albano, Isabela</td>
+                    <td>465 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Delfin Albano, Isabela" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Tumauini, Isabela</td>
+                    <td>481 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Tumauini, Isabela" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Ilagan, Isabela</td>
+                    <td>455 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Ilagan, Isabela" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Naguillan, Isabela</td>
+                    <td>441 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Naguillan, Isabela" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Roxas, Isabela</td>
+                    <td rowspan="16">NEL District - Lower Cagayan</td>
+                    <td>431 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Roxas, Isabela" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Aurora, Isabela</td>
+                    <td>420 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Aurora, Isabela" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Cabatuan, Isabela</td>
+                    <td>412 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Cabatuan, Isabela" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Cauayan, Isabela</td>
+                    <td>422 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Cauayan, Isabela" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>San Mateo, Isabela</td>
+                    <td>402 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="San Mateo, Isabela" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Alicia, Isabela</td>
+                    <td>406 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Alicia, Isabela" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Echague, Isabela</td>
+                    <td>400 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Echague, Isabela" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Ramon, Isabela</td>
+                    <td>389 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Ramon, Isabela" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Santiago City, Isabela</td>
+                    <td>380 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Santiago City, Isabela" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Cordon, Isabela</td>
+                    <td>369 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Cordon, Isabela" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Diffun Quirino, Isabela</td>
+                    <td>388 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Diffun Quirino, Isabela" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Lagawe, Ifugao</td>
+                    <td>378 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Lagawe, Ifugao" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Solano, Nueva Vizcaya</td>
+                    <td>389 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Solano, Nueva Vizcaya" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Bayombong, Nueva Vizcaya</td>
+                    <td>317 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Bayombong, Nueva Vizcaya" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Bambang, Nueva Vizcaya</td>
+                    <td>326 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Bambang, Nueva Vizcaya" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Aritao, Nueva Vizcaya</td>
+                    <td>282 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Aritao, Nueva Vizcaya" data-rate="₱11,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Baguio City</td>
+                    <td rowspan="3">NEL District - Baguio</td>
+                    <td>266 KM</td>
+                    <td rowspan="2">₱10,000.00</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Baguio City" data-rate="₱10,000.00">Book Now</button></td>  
+                </tr>
+                <tr>
+                    <td>La Trinidad, Benguet</td>
+                    <td>268 KM</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="La Trinidad, Benguet" data-rate="₱10,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Province of La Union</td>
+                    <td>286 KM</td>
+                    <td>₱9,000.00</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="La Union Province" data-rate="₱9,000.00">Book Now</button></td>
+                </tr>
+                <tr>
+                    <td>Province of Pangasinan</td>
+                    <td>NEL District - Pangasinan</td>
+                    <td>292 KM</td>
+                    <td>₱9,000.00</td>
+                    <td>1 - 2 DAYS</td>
+                    <td><button class="btn btn-primary book-now-btn" data-destination="Pangasinan Province" data-rate="₱9,000.00">Book Now</button></td> 
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Booking Form Modal -->
+    <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bookingModalLabel">Book Trucking Service</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="bookingForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="destination" class="form-label">Destination</label>
+                            <input type="text" class="form-control" id="destination" readonly>
+                        </div>
+                        <div class="mb-3">
+                            <label for="rate" class="form-label">Rate</label>
+                            <input type="text" class="form-control" id="rate" readonly>
+                        </div>
+                        <button type="submit" class="btn btn-success">Confirm Booking</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const bookNowButtons = document.querySelectorAll(".book-now-btn");
+            const bookingModal = new bootstrap.Modal(document.getElementById("bookingModal"));
+            const destinationInput = document.getElementById("destination");
+            const rateInput = document.getElementById("rate");
+    
+            // Initialize a counter for reference numbers
+            let referenceCounter = 1;
+    
+            // Show the modal and populate the destination and rate fields
+            bookNowButtons.forEach(button => {
+                button.addEventListener("click", function () {
+                    const destination = this.getAttribute("data-destination");
+                    const rate = this.getAttribute("data-rate");
+    
+                    destinationInput.value = destination;
+                    rateInput.value = rate;
+    
+                    bookingModal.show();
+                });
+            });
+    
+            // Generate a unique reference number
+            function generateReferenceNumber() {
+                const currentYear = new Date().getFullYear(); // Get the current year
+                const paddedCounter = String(referenceCounter).padStart(3, '0'); // Pad the counter to 3 digits
+                referenceCounter++; // Increment the counter for the next booking
+                return `${currentYear}-${paddedCounter}`;
+            }
+    
+            // Handle form submission
+            document.getElementById("bookingForm").addEventListener("submit", function (event) {
+                event.preventDefault();
+    
+                const name = document.getElementById("name").value;
+                const email = document.getElementById("email").value;
+                const phone = document.getElementById("phone").value;
+                const destination = destinationInput.value;
+                const rate = rateInput.value;
+                const referenceNumber = generateReferenceNumber();
+    
+                alert(`Thank you, ${name}! Your booking has been confirmed.\n\nDetails:\nDestination: ${destination}\nRate: ${rate}\nReference Number: ${referenceNumber}\n\nWe will contact you within 24 hours regarding your booking at ${email} or ${phone}.`);
+    
+                bookingModal.hide();
+            });
+        });
+    </script>
+</body>
+</html>
